@@ -1,0 +1,3 @@
+# Sql
+STRUCTURED QUERY LANGUAGE
+This repository consists of SQL projects of CODECADEMY DATA SCIENCE COURSE. 
