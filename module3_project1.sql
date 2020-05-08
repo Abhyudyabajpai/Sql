@@ -1,0 +1,14 @@
+select * from startups;  
+select count(name) from startups; 
+select sum(valuation) from startups;
+select max(raised) from startups; 
+select max(raised) from startups where stage ='seed';
+select name,min(founded) from startups;
+select avg(valuation) from startups; 
+select category, avg(valuation) from startups group by category; 
+select category,round(avg(valuation),2) from startups group  by 1; 
+select category,round(avg(valuation),2) from startups group  by 1 order by 2 desc; 
+select  category,count(name) from startups group by 1; 
+select  category,count(name) from startups group by 1 having count(name) > 3; 
+select location,avg(employees) from startups group by 1 ; 
+select location,avg(employees) from startups group by 1 having avg(employees) > 500;
