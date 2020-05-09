@@ -1,5 +1,7 @@
 select * from trips;
+
 select * from riders;
+
 select * from cars;
 
 select * from riders cross join cars ;
