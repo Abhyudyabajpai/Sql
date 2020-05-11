@@ -22,6 +22,7 @@
 )
 SELECT * FROM months;
 
+
 WITH months AS
 (
   SELECT
